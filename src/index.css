@@ -1,0 +1,101 @@
+/* Custom font and body styling */
+body {
+  margin: 0 !important;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", sans-serif !important;
+  background: linear-gradient(135deg, #4e73df, #1cc88a, #f6c23e) !important;
+  min-height: 100vh !important;
+  color: #1a202c !important;
+}
+
+/* Card styling with hover effect */
+.card {
+  border: none !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-header {
+  background-color: #4e73df !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+}
+
+.card-body label {
+  font-weight: 500 !important;
+  color: #4e73df !important;
+  width: fit-content !important;
+  cursor: pointer !important;
+}
+
+.card-body h3 {
+  color: #4e73df !important;
+}
+
+/* Button enhancements */
+.btn-primary {
+  background-color: #4e73df !important;
+  border-color: #4e73df !important;
+  transition: background-color 0.2s ease, transform 0.2s ease !important;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9 !important;
+  border-color: #2e59d9 !important;
+  transform: scale(1.05) !important;
+}
+
+.btn-secondary {
+  background-color: #858796 !important;
+  border-color: #858796 !important;
+  transition: background-color 0.2s ease, transform 0.2s ease !important;
+}
+
+.btn-secondary:hover {
+  background-color: #6b6d7f !important;
+  border-color: #6b6d7f !important;
+  transform: scale(1.05) !important;
+}
+
+/* Alert styling */
+.alert {
+  border-radius: 0.75rem !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Table styling */
+.table {
+  border-radius: 0.5rem !important;
+  overflow: hidden !important;
+}
+
+.table th {
+  background-color: #e3e6f0 !important;
+  color: #4e73df !important;
+  font-weight: 600 !important;
+}
+
+.table td {
+  border-top: 1px solid #e3e6f0 !important;
+}
+
+/* Custom header styling */
+h1,
+h2,
+h3 {
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.form-check .form-check-input {
+  cursor: pointer !important;
+}
